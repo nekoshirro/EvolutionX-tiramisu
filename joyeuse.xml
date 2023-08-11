@@ -11,7 +11,7 @@
     <project path="vendor/xiaomi/joyeuse" name="vendor_xiaomi_joyeuse" remote="neko-github" revision="13"/>
 
     <!-- Kernel and Toolchain Repository -->
-    <project path="kernel/xiaomi/sm6250" name="nekoshirro/android_kernel_xiaomi_sm6250" remote="github" revision="Melon"/>
+    <project path="kernel/xiaomi/sm6250" name="nekoshirro/android_kernel_xiaomi_sm6250" remote="github" revision="Krypton-HCK"/>
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/> 
 
     <!-- Custom Repositories -->
