@@ -20,13 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/joyeuse/device.mk)
 
 # Inherit Android Open Source Project configuration
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identity configuration
-PRODUCT_NAME := aosp_joyeuse
+PRODUCT_NAME := evolution_joyeuse
 PRODUCT_DEVICE := joyeuse
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 9 Pro
@@ -38,3 +38,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="cheetah-user 13 TQ3A.230805.001 10316531 release-keys"
 
 BUILD_FINGERPRINT := google/cheetah/cheetah:13/TQ3A.230805.001/10316531:user/release-keys
+
+# Evolution X Stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true

@@ -32,6 +32,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     OemDmTrigger \
     OPScreenRecord \
     Ornament \
+    Papers \
     PixelLiveWallpaperPrebuilt \
     Photos \
     PlayAutoInstallConfig \
