@@ -43,8 +43,10 @@ rm -rf device/xiaomi/z*
 rm -rf vendor/xiaomi/miuicamera
 rm -rf hardware/dolby
 rm -rf prebuilts/clang/host/linux-x86/clang-alchemist
+rm -rf external/jemalloc_new
 
 # Clone needed repository
 git clone https://gitlab.com/ImSurajxD/clang-r450784d.git prebuilts/clang/host/linux-x86/clang-r450784d --depth 1
 git clone https://gitlab.com/nekoshirro/vendor_xiaomi_miuicamera vendor/xiaomi/miuicamera --depth 1
 git clone https://github.com/nekoshirro/android_hardware_dolby.git hardware/dolby --depth 1
+git clone https://github.com/aleksiby/android_external_jemalloc_new.git external/jemalloc_new --depth 1
