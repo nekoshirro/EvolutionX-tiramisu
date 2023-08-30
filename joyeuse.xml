@@ -27,8 +27,6 @@
     <remove-project name="build_soong" />
     <remove-project name="manifest" />
     <remove-project name="system_core" />
-    <remove-project name="BootleggersROM/external_jemalloc_new" />
-    <project path="external/jemalloc_new" name="android_external_jemalloc_new" revision="tirimbino" remote="aleksiby" />
     <project path="frameworks/av" name="android_frameworks_av" revision="tiramisu-jem" remote="aleksiby" />
     <project path="frameworks/base" name="android_frameworks_base" revision="tiramisu-jem" remote="aleksiby" />
     <project path="bionic" name="android_bionic" revision="tiramisu-jem" remote="aleksiby" />
