@@ -17,8 +17,6 @@
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/> 
 
     <!-- Custom Repositories -->
-    <remove-project name="vendor_evolution" />
-    <project path="vendor/evolution" name="vendor_evolution-x" remote="neko-github" revision="tiramisu" />
     <remove-project name="platform/external/jemalloc_new" />
     <remove-project name="frameworks_av" />
     <remove-project name="frameworks_base" />
